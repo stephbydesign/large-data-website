@@ -1,66 +1,64 @@
 # Personas
 
-## Mavis
+## Kevin
 
-*70, female, retired*
+*40, male, mechanical engineer*
 
-Mavis is a fit old lady who loves to garden because it’s a great pastime and she really enjoys the exertion and exercise. She wants to take her time gardening and learn about all the flowers and plants at her own pace, while protecting and nourishing her garden.
+Kevin is businessman and a car enthusiast who loves to drive. He's always reading about cars and their newest model. He doesn't have a favourite manufacturer, but loves anything german made and wants to learn all about their history.
 
 **Personal goals**
 
-- Get out of the house regularly
-- Stay healthy and active for her grand kids
-- Keep her mind active
+- Experience the Geneva automotive show.
+- Travel to Germany and complete a driving tour
 
 **Technology skills**
 
-- Can check e-mail and browse websites
-- Doesn’t own a mobile phone
+- Has a moderate understanding of electronics.  
+- Prefers Blackberry because of it's usefulness as a productivity tool. 
 
 **Likes**
 
-- A beautiful, sunny afternoon exploring the garden
-- Chatting with other ladies and good-looking gentlemen
+- Cruising in his Toyota MR2 on summer nights while car-spotting.
+- Discussing the pros and cons with friends about different cars.
+- His 60" HDTV with surround sound.
 
 **Dislikes**
 
-- Having to drive a long distance to the library for information
+- The lack of exotic cars in Ottawa.
 - Information that’s too scientific and not helpful for her
 
 ### What would help?
 
-- Having a website with fungi specifically related to gardening
-- Being able to print out the fungus information to read offline
+- Having easy access to an organized digital library on all the various german models released.
 
 ---
 
-## Sean
+## Ashley
 
-*27, male, single, freelance designer*
+*25, female, student graphic designer*
 
-Sean wants to stay in shape to lead a healthy life, but he has lots of work to do. So he takes a few hours on weekends to go nature walking. Trekking allows him to put his mind on something else and enjoys exploring and learning about the fungi that he passes by.
+Ashley wants to travel Europe in style and enjoy some car-spotting but she needs to save up for the trip first. She also wants to make sure she knows what to look for when she gets there. She plans to study german models while she's saving and finishing up her program.
 
 **Personal goals**
 
-- Stay healthy
-- Have a good work-life balance
+- Learn more about german cars.
+- Travel through Europe on a car tour to do some car-spotting while enjoying the sights.
 
 **Technology skills**
 
-- Early adopter
-- Has a smart phone, tablet, smart TV, laptop
+- Early adopter.
+- Has a smart phone, tabet, and laptop.
 
 **Likes**
 
-- Quiet and alone time
-- Learning scientific info by himself
+- Quiet and alone time.
+- Reading.
 
 **Dislikes**
 
-- People talking to him
-- Information that’s too fluffy
+- Bad drivers.
+- Being too busy to pursue her own tasks.
 
 ### What would help?
 
-- Being able to access the information anywhere
-- Be able to use his smart phone to read the info on the go
+- Being able to access relevant information from anywhere and from any device.
