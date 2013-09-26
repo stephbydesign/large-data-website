@@ -35,11 +35,11 @@ X cards were used covering a broad range of applicable content for the website. 
 
 ## Card sort results
 
-![Card sort 1 results](card-sort-1.jpg)
+![Card sort 1 results](card-sort-1.jpeg)
 
 *Card sort by Jamie Dean*
 
-![Card sort 2 results](card-sort-2.jpg)
+![Card sort 2 results](card-sort-2.jpeg)
 
 *Card sort 2 by Allison Mahoney*
 
