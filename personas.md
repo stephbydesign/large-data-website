@@ -13,8 +13,8 @@ Kevin is businessman and a car enthusiast who loves to drive. He's always readin
 
 **Technology skills**
 
-- Has a moderate understanding of electronics.  
-- Prefers Blackberry because of it's usefulness as a productivity tool. 
+- Has a moderate understanding of electronics.
+- Prefers Blackberry because of it's usefulness as a productivity tool.
 
 **Likes**
 
@@ -25,7 +25,7 @@ Kevin is businessman and a car enthusiast who loves to drive. He's always readin
 **Dislikes**
 
 - The lack of exotic cars in Ottawa.
-- Information that’s too scientific and not helpful for her
+- Information that’s too scientific and not helpful for him
 
 ### What would help?
 
@@ -47,7 +47,7 @@ Ashley wants to travel Europe in style and enjoy some car-spotting but she needs
 **Technology skills**
 
 - Early adopter.
-- Has a smart phone, tabet, and laptop.
+- Has a smart phone, tablet, and laptop.
 
 **Likes**
 
