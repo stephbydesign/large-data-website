@@ -38,6 +38,10 @@ ul {
   background-color: #ff9c06;
 }
 
+.nav li {
+  display: inline-block;
+}
+
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -47,7 +51,6 @@ ul {
   border: 0;
 
   color: #fff;
-  text-decoration: none;
   text-align: center;
 }
 
