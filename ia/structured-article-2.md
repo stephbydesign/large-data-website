@@ -12,8 +12,6 @@ transmission:
 
 ---
 
-### About
-
 The Porsche 911 GT1 was a car designed for competition in the GT1 class of sportscar racing, which also required a street legal version for homologation purposes. The limited-production street-legal version was labeled the 911 GT1 Straßenversion (Street version).
 
 ### History

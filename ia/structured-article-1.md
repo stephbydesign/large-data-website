@@ -16,8 +16,6 @@ transmission:
 	- 7-speed PDK dual clutch transmission
 ---
 
-### About
-
 The Porsche Cayman is a rear mid-engined, rear wheel drive 2-seat sports car produced by Porsche AG of Germany. First launched in the 2006 model year, the Cayman is a coupé derived from Porsche's second and third generation Boxster roadster. Like the Boxster, most Caymans were assembled in Finland for Porsche by Valmet Automotive (the rest are assembled in Zuffenhausen, Stuttgart, Germany). Porsche's Deputy Chairman, Holger P. Haerter stated that their contract with Valmet Automotive will end in 2012, and the Cayman's production will be outsourced to Magna Steyr Fahrzeugtechnik of Graz, Austria. (Panorama, 2008). More recently, as Volkswagen assumed ultimate control of Porsche AG, that agreement fell through, and the production of both Caymans and Boxsters after 2012 will be in the former Karmann plant in Osnabrück, Germany, now owned by Volkswagen and used for production of the new 2012 Golf Cabriolet
 
 ### Name
