@@ -36,12 +36,13 @@ h3 {
 
 
 ul {
-  margin: 0 0 1.4em;
+  margin: 0 0 3em;
 }
 
 .ir {
   text-indent: 100%;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .logo {
@@ -53,21 +54,24 @@ ul {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -90px;
   /* Pad bottom by footer height */
-  padding: 0 0 60px;
+  padding: 0 0 90px;
 }
 
 #footer {
-  height: 60px;
+  height:90px;
   background-color: #666;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav {
   margin: 0;
   overflow: hidden;
   padding: 5px;
+  position: relative;
+  z-index: 15;
 
   background-color: #666;
 }
@@ -80,7 +84,7 @@ ul {
 .nav a:link,
 .nav a:visited {
   display: inline;
-  padding: 0.25rem 15px;
+  padding: 0.25rem 20px;
 
   border: 0;
 
@@ -94,4 +98,10 @@ ul {
   background-color: #333;
 
   color: #fff;
+}
+
+.container {
+  width: auto;
+  height: 10%;
+  padding: 10px -5px;
 }

@@ -3,6 +3,7 @@
   *letter-spacing: normal;
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
+  z-index: 50;
 }
 .opera-only :-o-prefocus,
 .grid {
