@@ -9,27 +9,40 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link href="../css/general.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
+  <link href="../css/grids.css" rel="stylesheet">
+  <link href="../css/list-group.css" rel="stylesheet">
+  <link href="../css/icons.css" rel="stylesheet">
+  <link href="../css.bootstrap.css" rel="stylesheet">
+  <link href="../css/carousel.css" rel="stylesheet">
 
   <link href='http://fonts.googleapis.com/css?family=Dosis:300,500,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+  <div id="wrap">
+    <header>
+      <a href="{{site.baseurl}}/index.html" class="logo ir">Home</a>
+      {% include nav.html %}
+    </header>
 
-  <header>
-    {% include nav.html %}
-  </header>
+      <h1>Porsche Afficionado's Guide</h1>
 
-    <h1>Porsche Afficionado's Guide</h1>
+      {{content}}
+  </div>
 
-    {{content}}
-
-  <footer>
-    <p>
+  <div id="footer">
+    <footer>
       {% include icons.html %}
-    </p>© 2013 Stephbydesign</footer>
+      © 2013 Stephbydesign
+    </footer>
+  </div>
 
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/holder.js"></script>
 </body>
 </html>

@@ -4,21 +4,36 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   background-color: #ccc;
   font: normal 100%/1.4 'Dosis',sans-serif;
 }
 
 body {
-  margin: 2em auto;
-  padding: 1em;
-  width: 25em;
+  margin: 0;
+  padding: 0;
+  width: auto;
   background-color: #fff;
+}
+
+p {
+  padding: 0 5%;
 }
 
 h1{
   font-style: 700;
+  text-align: center;
 }
+
+h3 {
+  padding: 0 5%;
+}
+
 
 ul {
   margin: 0 0 1.4em;
@@ -26,16 +41,35 @@ ul {
 
 .ir {
   text-indent: 100%;
-  overflow: hidden;
   white-space: nowrap;
 }
 
-.nav {
-  margin: 0 -20px;
-  overflow: hidden;
-  padding: 0;
+.logo {
+  background-image: url("../img/placeholder.jpg");
+}
 
-  background-color: #ff9c06;
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #666;
+  padding-top: 10px;
+}
+
+.nav {
+  margin: 0;
+  overflow: hidden;
+  padding: 5px;
+
+  background-color: #666;
 }
 
 .nav li {
@@ -46,7 +80,7 @@ ul {
 .nav a:link,
 .nav a:visited {
   display: inline;
-  padding: 0.5rem 10px;
+  padding: 0.25rem 15px;
 
   border: 0;
 
@@ -57,7 +91,7 @@ ul {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #e86808;
+  background-color: #333;
 
   color: #fff;
 }

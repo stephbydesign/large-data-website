@@ -9,6 +9,10 @@
   /*padding or background-color would go here if we wanted to add this*/
 }
 
+.list-group-item li {
+  text-align: center;
+}
+
 .list-group-item-inline {
   display: inline;
 }
