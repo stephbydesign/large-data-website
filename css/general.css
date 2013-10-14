@@ -46,6 +46,9 @@ ul {
 }
 
 .logo {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
   background-image: url("../img/placeholder.jpg");
 }
 
