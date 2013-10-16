@@ -9,6 +9,12 @@ body {
   height: 100%;
 }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   background-color: #ccc;
   font: normal 100%/1.4 'Dosis',sans-serif;
@@ -22,7 +28,6 @@ body {
 }
 
 p {
-  padding: 0 5%;
 }
 
 h1{
@@ -31,12 +36,10 @@ h1{
 }
 
 h3 {
-  padding: 0 5%;
 }
 
-
 ul {
-  margin: 0 0 3em;
+  padding: 0;
 }
 
 .ir {
@@ -46,48 +49,64 @@ ul {
 }
 
 .logo {
+  margin: 0 auto;
+}
+
+.logo-image {
   width: 64px;
   height: 64px;
-  display: inline-block;
+  display: block;
   background-image: url("../img/placeholder.jpg");
+  margin: 0 auto;
 }
 
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto -90px;
-  /* Pad bottom by footer height */
-  padding: 0 0 90px;
+
+header {
+    text-align: center;
 }
 
-#footer {
-  height:90px;
+footer {
   background-color: #666;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 1.5em 1em;
 }
 
-.nav {
+nav {
+  display: inline;
   margin: 0;
   overflow: hidden;
-  padding: 5px;
-  position: relative;
-  z-index: 15;
 
   background-color: #666;
 }
 
-.nav li {
-  display: inline-block;
+nav ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 -1em;
+  background-color: #666;
+
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav li a {
+  display: block;
+  margin: 0 -1em;
+  padding: 1em;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
   display: inline;
-  padding: 0.25rem 20px;
+  padding: 2em;
 
   border: 0;
 
