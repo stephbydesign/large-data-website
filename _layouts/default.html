@@ -22,35 +22,32 @@
   });
   </script>
 
-
-
-
   <link href='http://fonts.googleapis.com/css?family=Dosis:300,500,600' rel='stylesheet' type='text/css'>
 </head>
 
-<body id="top">
+  <body id="top">
 
-  <div class="grid">
+    <div class="grid">
 
-    <header class="unit unit-s-1 unit-m-1 unit-l-1-4">
-      <div class="logo">
-        <a href="{{site.baseurl}}/index.html" class="logo-image ir">Home</a>
-      </div>
-      <nav>
-        <ul class="unit-spacer">
-          <li><a href="{{site.baseurl}}/about.html" class="">About</a></li>
-          <li><a href="{{site.baseurl}}/models.html" class="">Models</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header class="unit unit-s-1 unit-m-1 unit-l-1-4">
+        <div class="logo">
+          <a href="{{site.baseurl}}/index.html" class="logo-image ir">Home</a>
+        </div>
+        <nav>
+          <ul class="unit-spacer">
+            <li><a href="{{site.baseurl}}/about.html" class="">About</a></li>
+            <li><a href="{{site.baseurl}}/models.html" class="">Models</a></li>
+          </ul>
+        </nav>
+      </header>
 
       <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt=""/>
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
-                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption"/>
             </div>
             <div id="htmlcaption" class="nivo-html-caption">
                 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
@@ -59,20 +56,20 @@
       <div>
 
 
-    <div class="unit unit-s-1 unit-m-1 unit-l-3-4">
-      <div class="unit-spacer">
+      <div class="unit unit-s-1 unit-m-1 unit-l-3-4">
+        <div class="unit-spacer">
 
-        {{content}}
+          {{content}}
 
+        </div>
       </div>
+
+      <footer>
+          <p><a href="#">Back to top</a></p>
+          {% include icons.html %}
+      </footer>
+
     </div>
 
-    <footer>
-        <p><a href="#">Back to top</a></p>
-        {% include icons.html %}
-    </footer>
-
-  </div>
-
-</body>
+  </body>
 </html>
