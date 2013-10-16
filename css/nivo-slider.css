@@ -125,7 +125,7 @@ Supports Thumbs: true
 
 .theme-default .nivoSlider {
 	position:relative;
-	background:#fff url(loading.gif) no-repeat 50% 50%;
+	background:#fff url("../img/nivo-slider/loading.gif") no-repeat 50% 50%;
     margin-bottom:10px;
     -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
     -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
@@ -139,18 +139,18 @@ Supports Thumbs: true
 }
 .theme-default .nivoSlider a {
 	border:0;
-	display:block;
+	display: inline-block;
 }
 
 .theme-default .nivo-controlNav {
 	text-align: center;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;
 	width:22px;
 	height:22px;
-	background:url(bullets.png) no-repeat;
+	background: url("../img/nivo-slider/bullets.png") no-repeat;
 	text-indent:-9999px;
 	border:0;
 	margin: 0 2px;
@@ -163,7 +163,7 @@ Supports Thumbs: true
 	display:block;
 	width:30px;
 	height:30px;
-	background:url(arrows.png) no-repeat;
+	background: url("../img/nivo-slider/arrows.png") no-repeat;
 	text-indent:-9999px;
 	border:0;
 	opacity: 0;
@@ -230,8 +230,8 @@ blockquote, q {
 	quotes:"" "";
 }
 /* HTML5 tags */
-section, footer,
-aside, nav, article, figure {
+section,
+aside, article, figure {
 	display: block;
 }
 
@@ -258,7 +258,7 @@ body {
 
 .slider-wrapper {
 	width: 80%;
-	margin: 5% auto;
+	margin: 30px auto;
 }
 
 /*====================*/
