@@ -10,8 +10,8 @@
   word-spacing: -0.43em;
 }
 .unit {
-  display: inline-block;
-  *display: inline;
+
+  display: inline;
   zoom: 1;
   letter-spacing: normal;
   text-rendering: auto;

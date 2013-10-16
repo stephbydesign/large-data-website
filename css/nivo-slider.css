@@ -258,12 +258,12 @@ body {
 
 .slider-wrapper {
 	width: 80%;
-	margin: 50px auto;
+	margin: 5% auto;
 }
 
 /*====================*/
 /*=== Other Styles ===*/
 /*====================*/
 .clear {
-	clear: both;
+	clear: none;
 }
