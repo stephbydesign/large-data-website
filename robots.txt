@@ -1,0 +1,3 @@
+# http://robotstxt.org
+
+Sitemap: http://dinosaurs.com/sitemap.xml

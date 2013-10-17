@@ -1,0 +1,31 @@
+# http://humanstxt.org
+
+/* Author */
+
+Stephanie Albert
+Twitter: @stephbydesign
+From: Ottawa, ON, Canada
+
+/* Attributes */
+
+Steve Lyon
+Img: cayman.jpg
+License: CC Attribution-Share Alike 2.0 Generic
+http://www.flickr.com/photos/chicanerii/8229820374/
+From:l Los Angeles, CA, USA
+
+Alexandre Prévot
+Img: 911-carrera-s.jpg
+License: CC Attribution-Share Alike 2.0 Generic
+Link: http://www.flickr.com/photos/alexprevot/7522427256/
+From: Nancy, Lorraine, France
+
+Norbert Aepli
+Img: 918-spyder-rsr.jpg
+License: CC Attribution 3.0 Unported
+Link: http://commons.wikimedia.org/wiki/File:2011-03-04_Autosalon_Genf_1213.JPG
+From: Switzerland
+
+/* Site */
+
+IDE: Sublime Text 2, Github, Jekyll, Photoshop
