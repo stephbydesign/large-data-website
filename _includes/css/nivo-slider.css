@@ -255,11 +255,11 @@ body {
     display:block;
     text-indent:-9999px;
 }
-
+/*
 .slider-wrapper {
-	width: 80%;
-	margin: 30px auto;
-}
+	max-width: 50%;
+	margin: 0 auto;
+}*/
 
 /*====================*/
 /*=== Other Styles ===*/
