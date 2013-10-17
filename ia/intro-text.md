@@ -20,6 +20,8 @@ Guide
 
 Porsche enthusiast's guide to produced & concept models. Easily cruise the website, learn about the first model to the futuristic concepts.
 
+Porsche aficionado's guide to produced and concept models. Discover everything about Porsche from classic models to  futuristic concepts.
+
 ===
 
 ##Max 5-7 words
