@@ -68,6 +68,11 @@ header {
 footer {
   background-color: #666;
   padding: 1.5em 1em;
+  margin: -1em;
+}
+
+footer ul li {
+  text-align: center;
 }
 
 nav {
@@ -94,6 +99,7 @@ nav li {
 a {
   text-decoration: none;
   list-style-type: none;
+  margin: 0 auto;
 }
 
 nav li a {
