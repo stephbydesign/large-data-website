@@ -17,7 +17,7 @@ body {
 
 html {
   background-color: #ccc;
-  font: normal 100%/1.4 'Dosis',sans-serif;
+  font: normal 100%/1.4 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -31,7 +31,7 @@ p {
 }
 
 h1{
-  font-style: 700;
+  font-style: 600;
   text-align: center;
 }
 
@@ -53,11 +53,11 @@ ul {
 }
 
 .logo-image {
-  width: 64px;
-  height: 64px;
+  width: 100%;
   display: block;
-  background-image: url("../img/placeholder.jpg");
+  background-image: url("../img/logo.png");
   margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
 
@@ -84,6 +84,8 @@ nav {
 }
 
 nav ul {
+  position: relative;
+  top: 1rem;
   margin: 0;
   padding: 0;
 
