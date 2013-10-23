@@ -17,7 +17,7 @@ body {
 
 html {
   background-color: #ccc;
-  font: normal 100%/1.4 'Dosis',sans-serif;
+  font: normal 100%/1.4 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -53,11 +53,11 @@ ul {
 }
 
 .logo-image {
-  width: 64px;
-  height: 64px;
+  width: 100%;
   display: block;
-  background-image: url("../img/placeholder.jpg");
+  background-image: url("../img/logo.png");
   margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
 
@@ -127,3 +127,5 @@ nav li a {
   height: 10%;
   padding: 10px -5px;
 }
+
+
