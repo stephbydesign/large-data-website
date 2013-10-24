@@ -1,0 +1,7 @@
+<ul class="list-group">
+  {% for model in site.pages %}
+    {% if model.category == include.modeltype %}
+      <li class="list-group-item">{{model.name}}</li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -2,7 +2,7 @@
   {% for model in site.pages %}
     {% if model.category == include.modeltype %}
       <li class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-        <img src="{{site.baseurl}}/img/{{dino.thumb}}" class="flex-img" alt="Photo of {{model.name}}">
+        <img src="{{site.baseurl}}/img/{{model.thumb}}" class="flex-img" alt="Photo of {{model.name}}">
         <p>{{model.name}}</p>
       </li>
     {% endif %}
