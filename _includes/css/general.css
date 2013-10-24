@@ -16,18 +16,19 @@ body {
 }
 
 html {
-  background-color: #ccc;
   font: normal 100%/1.4 'Source Sans Pro', sans-serif;
 }
 
 body {
+  background-image: url('../img/background.png');
   margin: 0;
   padding: 0;
   width: auto;
-  background-color: #fff;
 }
 
 p {
+  background-color: #fff;
+  box-shadow: 2px 2px 3px #444;
 }
 
 h1{

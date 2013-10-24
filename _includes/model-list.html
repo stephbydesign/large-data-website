@@ -1,7 +1,7 @@
 <ul class="list-group">
   {% for model in site.pages %}
-    {% if model.category == include.modeltype %}
-      <li class="list-group-item">{{model.name}}</li>
+    {% if model.category == include.modelType %}
+      <li class="list-group-item"><a href="{{site.baseurl}}{{model.url}}">{{model.name}}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
