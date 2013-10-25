@@ -27,8 +27,11 @@ body {
 }
 
 p {
-  background-color: #fff;
-  box-shadow: 2px 2px 3px #444;
+
+}
+
+header {
+
 }
 
 h1{
@@ -43,6 +46,11 @@ ul {
   padding: 0;
 }
 
+.module {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px #a9a9a9;
+}
+
 .ir {
   text-indent: 100%;
   white-space: nowrap;
@@ -50,14 +58,14 @@ ul {
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto ;
   display: block;
 }
 
 .logo-image {
-  width: 20%;
-  height: 20%;
+  min-width: 35%;
+  max-width: 25%;
+  max-height: 25%;
   display: inline-block;
 
   margin: 0 auto;
