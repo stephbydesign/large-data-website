@@ -16,7 +16,7 @@ body {
 }
 
 html {
-  font: normal 100%/1.4 'Source Sans Pro', sans-serif;
+  font: normal 100%/1.5 'Lato', sans-serif;
 }
 
 body {
@@ -31,12 +31,26 @@ p {
 }
 
 header {
-
+  text-align: center;
+  background-color:rgba(255,255,255,0.3);
+  padding: .5em;
+  margin: 1em;
+  box-shadow: -1px 1px 4px #a9a9a9;
+  border-radius: .25em;
 }
 
-h1{
-  font-style: 600;
+.header {
   text-align: center;
+  background-color:rgba(255,255,255,0.5);
+  padding: .125em;
+  margin: .5em;
+  box-shadow: -1px 1px 4px #a9a9a9;
+  border-radius: .25em;
+}
+
+h1 {
+  text-align: center;
+  font: 700 150%/1.5 'Lato', sans-serif;
 }
 
 h3 {
@@ -44,11 +58,11 @@ h3 {
 
 ul {
   padding: 0;
+  text-align: center;
 }
 
-.module {
-  background-color: #fff;
-  box-shadow: 1px 1px 4px #a9a9a9;
+.btn {
+
 }
 
 .ir {
@@ -58,55 +72,49 @@ ul {
 }
 
 .logo {
-  margin: 1em auto ;
+  margin: 0 auto ;
   display: block;
 }
 
 .logo-image {
-  min-width: 35%;
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 35%;
   display: inline-block;
-
   margin: 0 auto;
   background-repeat: no-repeat;
 }
 
 
-header {
-    text-align: center;
-}
-
 footer {
-  background-color: #666;
+  background-color:rgba(255,255,255,0.4);
   padding: 1.5em 1em;
-  margin: -1em;
+  margin: 8px;
+  box-shadow: -1px 1px 4px #a9a9a9;
+  border-radius: .25em;
 }
 
 footer ul li {
   text-align: center;
+  margin: .125em;
 }
 
 nav {
   display: inline;
   margin: 0;
   overflow: hidden;
-
-  background-color: #666;
 }
 
 nav ul {
-  position: relative;
   top: 1rem;
   margin: 0;
   padding: 0;
-
   list-style-type: none;
 }
 
 nav li {
-  margin: 0 -1em;
-  background-color: #666;
+  padding: 0 1em;
+  background-color: #606060;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
 
 }
 
@@ -118,7 +126,7 @@ a {
 
 nav li a {
   display: block;
-  margin: 0 -1em;
+  margin: 0 2em;
   padding: 1em;
   color: #333;
 }
@@ -138,7 +146,7 @@ nav li a {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #e2e2e2;
+  background-color: #fff;
 
   color: #fff;
 }
