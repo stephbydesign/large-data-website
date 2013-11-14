@@ -1,8 +1,8 @@
 .icon {
   display: inline-block;
-  background: transparent none no-repeat left top;
-  background-size: contain;
-  vertical-align: middle;
+  background: transparent url("../img/icons/icon-sprites.png") no-repeat 0 0;
+  height: 38px;
+  width: 38px;
 }
 
 .icon-text {
@@ -13,7 +13,7 @@
   text-decoration: none;
   color: #66f;
 }
-
+/*
 .i-16 {
   width: 16px;
   height: 16px;
@@ -27,21 +27,21 @@
 .i-38 {
   width: 38px;
   height: 38px;
-}
+}*/
 
 .i-twitter {
-  background-image: url("../img/icons/i-twitter.svg");
+  background-position: -38 0;
 }
 
 .i-facebook {
-  background-image: url("../img/icons/i-facebook.svg");
+  background-position: 0 -38;
 }
 
 .i-googleplus {
-  background-image: url("../img/icons/i-googleplus.svg");
+  background-position: -38 -38;
 }
 
 .i-pinterest {
-  background-image: url("../img/icons/i-pinterest.svg");
+  background-position: -40 -40;
 }
 
