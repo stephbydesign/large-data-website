@@ -17,6 +17,7 @@ body {
 
 html {
   font: normal 100%/1.5 'Lato', sans-serif;
+  color: #808080;
 }
 
 body {
@@ -34,23 +35,22 @@ header {
   text-align: center;
   background-color:rgba(255,255,255,0.3);
   padding: .5em;
-  margin: 1em;
+  margin: 0 auto;
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .25em;
 }
 
 .header {
-  text-align: center;
   background-color:rgba(255,255,255,0.5);
-  padding: .125em;
-  margin: .5em;
+  padding: 0.5em;
+  margin: 0;
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .25em;
 }
 
 h1 {
-  text-align: center;
-  font: 700 150%/1.5 'Lato', sans-serif;
+  color: #8d1020;
+  font: 900 160%/1.5 'Playfair Display', serif;
 }
 
 h3 {
@@ -73,13 +73,13 @@ ul {
 
 .logo {
   margin: 0 auto ;
-  display: block;
+  display: inline-block;
 }
 
 .logo-image {
-  max-width: 35%;
-  display: inline-block;
-  margin: 0 auto;
+  max-width: 40%;
+  display: block;
+  margin: 0.75em auto;
   background-repeat: no-repeat;
 }
 
@@ -98,7 +98,7 @@ footer ul li {
 }
 
 nav {
-  display: inline;
+  display: inline-block;
   margin: 0;
   overflow: hidden;
 }
@@ -113,9 +113,8 @@ nav ul {
 nav li {
   padding: 0 1em;
   background-color: #606060;
-  margin: 0;
+  margin: 0 -8px;
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
-
 }
 
 a {
@@ -125,10 +124,11 @@ a {
 }
 
 nav li a {
+  font-style: ;
   display: block;
-  margin: 0 2em;
-  padding: 1em;
-  color: #333;
+  margin: 0;
+  padding: 1em 0;
+  color: #161b20;
 }
 
 .nav a,

@@ -52,7 +52,7 @@
 	position:absolute;
 	left:0px;
 	bottom:0px;
-	background:#000;
+	background:#161b20;
 	color:#fff;
 	width:100%;
 	z-index:8;
@@ -92,7 +92,7 @@
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
 	text-align:center;
-	padding: 15px 0;
+	padding: 5px 0;
 }
 .nivo-controlNav a {
 	cursor:pointer;
@@ -133,7 +133,7 @@ Supports Thumbs: true
 
 .theme-default .nivo-controlNav {
 	text-align: center;
-	padding: 10px 0;
+	padding: 5px 0;
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;

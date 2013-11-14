@@ -1,8 +1,9 @@
 .icon {
   display: inline-block;
-  background: transparent url("../img/icons/icon-sprites.png") no-repeat 0 0;
   height: 38px;
   width: 38px;
+
+  background: transparent url("../img/icons/icon-sprites.png") no-repeat 0 0;
 }
 
 .icon-text {
@@ -30,7 +31,7 @@
 }*/
 
 .i-twitter {
-  background-position: -38 0;
+  background-position: 0 -76;
 }
 
 .i-facebook {
