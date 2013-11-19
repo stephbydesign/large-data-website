@@ -31,6 +31,13 @@ p {
 
 }
 
+img {
+  width: 100%;
+  z-index: -2;
+}
+
+/*HEADER*/
+
 header {
   text-align: center;
   background-color:rgba(255,255,255,0.3);
@@ -47,6 +54,23 @@ header {
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .25em;
 }
+
+@media only screen and (min-width: 62.5em){
+
+  header {
+    width: 15em;
+    top:0;
+    left:0;
+    position: fixed;
+
+  }
+
+
+}
+
+
+
+/*HEADINGS*/
 
 h1 {
   color: #8d1020;
@@ -90,6 +114,10 @@ footer {
   margin: 8px;
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .25em;
+
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 footer ul li {
@@ -156,3 +184,12 @@ nav li a {
   height: 10%;
   padding: 10px -5px;
 }
+
+.errbg {
+  background-color: #d5a919;
+}
+
+.error {
+  font: 900 150%/1.5 'Lato', sans-serif;
+}
+
