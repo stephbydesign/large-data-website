@@ -5,7 +5,7 @@
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
 
-  margin: 0 0 0 16em;
+  /*margin: 0 0 0 16em;*/
 }
 .opera-only :-o-prefocus,
 .grid {

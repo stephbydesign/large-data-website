@@ -40,15 +40,22 @@ img {
 
 header {
   text-align: center;
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.25);
   padding: .5em;
   margin: 0 auto;
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .25em;
 }
 
-.header {
+.plain-header {
   background-color:rgba(255,255,255,0.5);
+  padding: 0.5em;
+  margin: 0;
+  border-radius: .25em;
+}
+
+.header {
+  background-color:rgba(255,255,255,0.25);
   padding: 0.5em;
   margin: 0;
   box-shadow: -1px 1px 4px #a9a9a9;
@@ -67,8 +74,6 @@ header {
 
 
 }
-
-
 
 /*HEADINGS*/
 
