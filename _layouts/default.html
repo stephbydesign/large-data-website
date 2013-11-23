@@ -37,10 +37,10 @@
 </head>
 
   <body id="top">
-    <div class="grid">
-      <div class="unit-spacer">
-        <header class="unit unit-spacer">
-            <nav class="unit unit-spacer header">
+    <div class="js-masonry"  data-masonry-options='{ "columnWidth": 25%, "gutter": 10 }'>
+      <div class="item s-1">
+        <header class="item s-1 header">
+            <nav class="header">
               <ul>
                 <a href="{{site.baseurl}}/index.html"><img src="img/logo.png" class="logo-image" rel="home" alt="Home"></a>
                 <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
@@ -51,15 +51,27 @@
         </header>
       </div>
 
-      <div class="unit">
+      <div>
         {{content}}
       </div>
 
-    <footer>
-        {% include icons.html %}
-    </footer>
-   </div>
+
+    </div>
+
+  <footer class="footer">
+      {% include icons.html %}
+  </footer>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/porsche.js"></script>
+  <script>
+    var container = document.querySelector('#container');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 200,
+      itemSelector: '.item'
+    });
+  </script>
+
   </body>
 </html>
