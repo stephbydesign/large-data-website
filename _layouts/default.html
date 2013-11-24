@@ -38,20 +38,26 @@
 
   <body id="top">
 
-        <header>
-            <nav class="header">
-              <ul class="">
-                <a href="{{site.baseurl}}/index.html"><img src="img/logo.png" class="logo-image" rel="home" alt="Home"></a>
-                <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
-                <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
-                <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
-              </ul>
-            </nav>
-        </header>
+  <div class="grid">
+
+    <div class="unit unit-spacer header">
+      <header class="unit-spacer header">
+          <nav>
+            <ul>
+              <a href="{{site.baseurl}}/index.html"><img src="img/logo.png" class="logo-image" rel="home" alt="Home"></a>
+              <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
+              <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
+              <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
+            </ul>
+          </nav>
+      </header>
+    </div>
+
+
 
         {{content}}
 
-
+  </div>
     <footer>
         {% include icons.html %}
     </footer>

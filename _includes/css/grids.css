@@ -1,5 +1,6 @@
 /* http://yui.github.io/gridbuilder/ */
 .grid {
+  outline: 1px solid red;
   letter-spacing: -0.31em;
   *letter-spacing: normal;
   *word-spacing: -0.43em;
@@ -12,6 +13,7 @@
   word-spacing: -0.43em;
 }
 .unit {
+  outline: 1px solid red;
   display: inline-block;
   *display: inline;
   width: 100%;
