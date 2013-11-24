@@ -37,31 +37,28 @@
 </head>
 
   <body id="top">
+    <div class="grid">
+      <div class="unit-spacer">
+        <header class="unit unit-spacer">
+            <nav class="unit unit-spacer header">
+              <ul>
+                <a href="{{site.baseurl}}/index.html"><img src="img/logo.png" class="logo-image" rel="home" alt="Home"></a>
+                <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
+                <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
+                <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
+              </ul>
+            </nav>
+        </header>
+      </div>
 
-  <div class="grid">
-
-    <div class="unit unit-spacer header">
-      <header class="unit-spacer header">
-          <nav>
-            <ul>
-              <a href="{{site.baseurl}}/index.html"><img src="img/logo.png" class="logo-image" rel="home" alt="Home"></a>
-              <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
-              <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
-              <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
-            </ul>
-          </nav>
-      </header>
-    </div>
-
-
-
+      <div class="unit">
         {{content}}
+      </div>
 
-  </div>
     <footer>
         {% include icons.html %}
     </footer>
-
+   </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/porsche.js"></script>
   </body>
