@@ -6,6 +6,7 @@ $(window).load(function() {
     $('#slider').nivoSlider();
 });
 
+<<<<<<< HEAD
 
 {% include js/modernizr.custom.04457.js %}
 $(window).load(function() {
@@ -21,3 +22,5 @@ var msnry = new Masonry( container, {
   itemSelector: '.unit'
 });
 
+=======
+>>>>>>> parent of b1bf067... Moved modernizr to includes.
