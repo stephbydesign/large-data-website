@@ -15,6 +15,12 @@
 	width: 100% !important;
 }
 
+@media only screen and (min-width: 40em){
+	.slider-wrapper {
+		margin: 0 5em;
+	}
+}
+
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {
 	position:absolute;

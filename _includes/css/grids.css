@@ -1,19 +1,16 @@
 /* http://yui.github.io/gridbuilder/ */
 .grid {
-  outline: 1px solid red;
-  letter-spacing: -0.31em;
+  letter-spacing: 0.1em;
   *letter-spacing: normal;
-  *word-spacing: -0.43em;
+  *word-spacing: 0.1em;
   text-rendering: optimizespeed;
 
-  margin: 0;
 }
 .opera-only :-o-prefocus,
 .grid {
   word-spacing: -0.43em;
 }
 .unit {
-  outline: 1px solid red;
   display: inline-block;
   *display: inline;
   width: 100%;
@@ -50,7 +47,7 @@
   width: 50%;
 }
 .unit-s-1-3 {
-  width: 33.33333%;
+  width: 32%;
 }
 .unit-s-2-3 {
   width: 66.6666%;
@@ -82,10 +79,10 @@
     width: 100%;
   }
   .unit-m-1-2 {
-    width: 50%;
+    width: 48%;
   }
   .unit-m-1-3 {
-    width: 33.33333%;
+    width: 32%;
   }
   .unit-m-2-3 {
     width: 66.66667%;
@@ -117,10 +114,10 @@
     width: 100%;
   }
   .unit-l-1-2 {
-    width: 50%;
+    width: 49%;
   }
   .unit-l-1-3 {
-    width: 33.33333%;
+    width: 32%;
   }
   .unit-l-2-3 {
     width: 66.66667%;
