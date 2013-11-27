@@ -42,8 +42,6 @@ body {
 header {
   text-align: center;
   background-color:rgba(255,255,255,0.3);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-  background: transparent\9;
   padding: .5em;
   margin: 0 auto;
   box-shadow: -1px 1px 4px #a9a9a9;
