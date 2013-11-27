@@ -39,11 +39,19 @@ body {
 
 /*HEADER*/
 
+header,
+.header,
+nav {
+  background-color: #e2e2e2;
+  background-color:rgba(255,255,255,0.25);
+  box-shadow: -1px 1px 4px #a9a9a9;
+  border-radius: .125em;
+}
+
 header {
   text-align: center;
-  background-color:rgba(255,255,255,0.3);
   padding: .5em;
-  margin: 0 auto;
+  margin: 8px;
   box-shadow: -1px 1px 4px #a9a9a9;
   border-radius: .125em;
 }
@@ -59,8 +67,6 @@ header {
 .header {
   background-color:rgba(255,255,255,0.25);
   padding: 0.5em;
-  box-shadow: -1px 1px 4px #a9a9a9;
-  border-radius: .125em;
 }
 
 .slider-p {
@@ -127,7 +133,7 @@ ul {
 }
 
 .logo-image {
-  max-width: 40%;
+  max-width: 100px;
   display: block;
   margin: 0.75em auto;
   background-repeat: no-repeat;
@@ -135,6 +141,7 @@ ul {
 
 
 footer {
+  background-color: #e2e2e2;
   background-color:rgba(255,255,255,0.4);
   padding: 1.5em 1em;
   margin: 8px;
@@ -160,8 +167,11 @@ footer ul li {
   }
 }
 
+.nav {
+
+}
+
 nav {
-  display: inline-block;
   margin: 0;
   overflow: hidden;
 }
