@@ -1,6 +1,6 @@
 /* http://yui.github.io/gridbuilder/ */
 .grid {
-  letter-spacing: -0.31em;
+  letter-spacing: normal;
   *letter-spacing: normal;
   *word-spacing: 0.43em;
   text-rendering: optimizespeed;
