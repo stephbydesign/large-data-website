@@ -78,7 +78,7 @@ body {
     margin: 0;
 }
 
-/* 
+/*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
 
@@ -98,10 +98,11 @@ textarea {
 a {
     color: #00e;
 }
-
+/*
 a:visited {
     color: #551a8b;
 }
+*/
 
 /*
  * Addresses outline displayed oddly in Chrome
@@ -138,9 +139,9 @@ abbr[title] {
  * Addresses style set to 'bolder' in FF3/4, S4/5, Chrome
 */
 
-b, 
-strong { 
-    font-weight: bold; 
+b,
+strong {
+    font-weight: bold;
 }
 
 blockquote {
@@ -270,7 +271,7 @@ img {
 }
 
 /*
- * Corrects overflow displayed oddly in IE9 
+ * Corrects overflow displayed oddly in IE9
  */
 
 svg:not(:root) {
@@ -365,8 +366,8 @@ table input {
  */
 
 button,
-html input[type="button"], 
-input[type="reset"], 
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
     cursor: pointer; /* 1 */
     -webkit-appearance: button; /* 2 */
@@ -429,7 +430,7 @@ textarea {
    Tables
    ========================================================================== */
 
-/* 
+/*
  * Remove most spacing between table cells
  */
 
@@ -438,6 +439,6 @@ table {
     border-spacing: 0;
 }
 
-.clearfix:before,.clearfix:after{content:" ";display:table;} 
-.clearfix:after{clear:both;} 
+.clearfix:before,.clearfix:after{content:" ";display:table;}
+.clearfix:after{clear:both;}
 .clearfix{zoom:1;}

@@ -6,25 +6,22 @@ Stephanie Albert
 Twitter: @stephbydesign
 From: Ottawa, ON, Canada
 
-/* Attributes */
+/* Attributions */
 
-Steve Lyon
+©Stefan-Xp
 Img: cayman.jpg
-License: CC Attribution-Share Alike 2.0 Generic
-http://www.flickr.com/photos/chicanerii/8229820374/
-From:l Los Angeles, CA, USA
+By Stefan-Xp (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
 
-Alexandre Prévot
+Abehn
 Img: 911-carrera-s.jpg
-License: CC Attribution-Share Alike 2.0 Generic
-Link: http://www.flickr.com/photos/alexprevot/7522427256/
-From: Nancy, Lorraine, France
+http://de.wikipedia.org/wiki/Benutzer:Abehn
+"I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law."
 
-Norbert Aepli
+Youkeys
 Img: 918-spyder-rsr.jpg
-License: CC Attribution 3.0 Unported
-Link: http://commons.wikimedia.org/wiki/File:2011-03-04_Autosalon_Genf_1213.JPG
-From: Switzerland
+By youkeys (DSC01996_DxO  Uploaded by AVIA BavARia) [CC-BY-2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
 
 /* Site */
 

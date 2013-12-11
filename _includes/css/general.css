@@ -7,6 +7,7 @@
 html,
 body {
   height: 100%;
+  font: normal 100%/1.5 'Lato', sans-serif;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
 
 html {
   background-image: url('../img/background.png');
-  font: normal 100%/1.5 'Lato', sans-serif;
+
   color: #808080;
   background-color: #ccc;
 }
@@ -29,9 +30,12 @@ body {
   max-width: 700px;
 }
 
+p {
+  padding: 8px;
+}
+
 /*Old Browsers to listen to media queries*/
 @media only screen and (min-width: 320px) {
-
   body {
     max-width: none
   }
@@ -64,7 +68,7 @@ header {
 
 .header {
   background-color:rgba(255,255,255,0.25);
-  padding: 0.5em;
+  padding: 8px;
 }
 
 .slider-p {
@@ -78,7 +82,20 @@ header {
 
 @media only screen and (min-width: 15em){
   .slider-p {
-    margin: 1em 0;
+    margin: 1em 8px;
+  }
+}
+
+@media only screen and (min-width:38em){
+  header {
+    width: 15em;
+    top:0;
+    left:0;
+    position: fixed;
+  }
+  .index {
+    margin-left: 13.5em;
+    padding:0;
   }
 }
 
@@ -90,11 +107,8 @@ header {
     position: fixed;
   }
   .index {
-    margin-left: 15em;
+    margin-left: 14.5em;
     padding:0;
-  }
-  h1 {
-  margin-left: 10em;
   }
 }
 
@@ -103,8 +117,9 @@ header {
 /*HEADINGS*/
 
 h1 {
-  color: #8d1020;
+  color: #d5a919;
   font: 900 160%/1.5 'Playfair Display', serif;
+  padding: 8px;
 }
 
 h3 {
@@ -157,7 +172,7 @@ footer ul li {
 
 @media only screen and (min-width: 40em){
   footer {
-    width: 14.5em;
+    width: 32%;
     left:0;
     bottom:0;
 
@@ -198,6 +213,7 @@ a {
   text-decoration: none;
   list-style-type: none;
   margin: 0 auto;
+  color: #ccc;
 }
 
 nav li a {
@@ -205,7 +221,7 @@ nav li a {
   display: block;
   margin: 0;
   padding: 1em 0;
-  color: #161b20;
+  color: #666;
 }
 
 .nav a,
@@ -216,15 +232,14 @@ nav li a {
 
   border: 0;
 
-  color: #fff;
+  color: #d5a919;
   text-align: center;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #fff;
-
+  background-color: #ccc;
   color: #fff;
 }
 
@@ -249,6 +264,7 @@ nav li a {
 }
 
 /* Depends on Modernizr */
+
 .no-inlinesvg .icon {
   background-image: url("../img/icon.png");
 }
