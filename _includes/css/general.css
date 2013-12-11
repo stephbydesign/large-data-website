@@ -116,13 +116,19 @@ header {
 
 /*HEADINGS*/
 
-h1 {
+h1,
+h2 {
   color: #d5a919;
   font: 900 160%/1.5 'Playfair Display', serif;
   padding: 8px;
 }
 
+h2 {
+  text-align: center;
+}
+
 h3 {
+  text-align: center;
 }
 
 ul {
@@ -172,12 +178,19 @@ footer ul li {
 
 @media only screen and (min-width: 40em){
   footer {
-    width: 32%;
+    width: 25%;
     left:0;
     bottom:0;
 
     position:fixed;
   }
+}
+
+@media only screen and (min-width: 52em){
+  .index {
+    margin-left: 15.5em;
+  }
+
 }
 
 .nav {
