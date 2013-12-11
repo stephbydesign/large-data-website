@@ -281,3 +281,18 @@ nav li a {
 .no-inlinesvg .icon {
   background-image: url("../img/icon.png");
 }
+
+.errbg {
+  background-color: #d5a919;
+  margin-top: 15em;
+ }
+
+ .error {
+  font: 900 150%/1.5 'Lato', sans-serif;
+  font: 900 300%/1.5 'Lato', sans-serif;
+}
+
+.404 {
+  width: 100%;
+  margin-top: 10em;
+}
