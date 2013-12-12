@@ -37,24 +37,32 @@
 
   <body id="top">
 
-    <header class="unit-spacer unit-s-1 unit-m-1-4">
-        <nav>
-          <ul class="unit-spacer">
-            <li><a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/logo.png" class="logo-image" rel="home" alt="Home"></a></li>
-            <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
-            <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
-            <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
-          </ul>
-        </nav>
-    </header>
+  <!-- Skip Links
+      ================================================== -->
+  <ul class="skiplinks">
+          <li><a href="#main">Skip to primary content</a></li>
+          <li><a href="#complementary">Skip to secondary content</a></li>
+          <li><a href="#nav">Skip to navigation content</a></li>
+          <li><a href="#footer">Skip to social media links</a></li>
+  </ul>
 
+  <header class="unit-spacer unit-s-1 unit-m-1-4" id="nav">
+      <nav>
+        <ul class="unit-spacer">
+          <li><a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/logo.png" class="logo-image" rel="home" alt="Home"></a></li>
+          <li><a href="{{site.baseurl}}/index.html" class="btn" rel="home">Home</a></li>
+          <li><a href="{{site.baseurl}}/about.html" class="btn" rel="home">About</a></li>
+          <li><a href="{{site.baseurl}}/models/" class="btn" rel="home">Models</a></li>
+        </ul>
+      </nav>
+  </header>
 
-      {{content}}
+    {{content}}
 
+  <footer id="footer">
+    {% include icons.html %}
+  </footer>
 
-    <footer>
-        {% include icons.html %}
-    </footer>
   <script>
     if (!Modernizr.inlinesvg) {
       ;(function () {
