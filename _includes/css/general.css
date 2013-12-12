@@ -44,8 +44,8 @@ p {
 /*SKIPLINKS*/
 
 .skiplinks {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   position:absolute;
   z-index: 3000;
   width: 100%;
@@ -59,17 +59,17 @@ p {
 .skiplinks a:link,
 .skiplinks a:visited {
   padding: 0.75em 1em;
-  position:absolute;
+  position: absolute;
   top: -10em;
 
-  background-color:#000;
+  background-color: #000;
 
-  color:#fff;
+  color: #fff;
   text-decoration:none;
 }
 
 .skiplinks a:focus{
-  top:0;
+  top: 0;
 }
 
 
@@ -104,7 +104,6 @@ header {
 }
 
 .slider-p {
-
   margin: 1rem 5rem 1rem 5rem;
   padding: 8px;
   box-shadow: -1px 1px 4px #a9a9a9;
@@ -168,10 +167,6 @@ ul {
   text-align: center;
 }
 
-.btn {
-
-}
-
 .ir {
   text-indent: 100%;
   white-space: nowrap;
@@ -189,7 +184,6 @@ ul {
   margin: 0.75em auto;
   background-repeat: no-repeat;
 }
-
 
 footer {
   background-color: #e2e2e2;
@@ -222,11 +216,6 @@ footer ul li {
   .index {
     margin-left: 15.5em;
   }
-
-}
-
-.nav {
-
 }
 
 nav {
@@ -242,9 +231,14 @@ nav ul {
 }
 
 nav li {
-  padding: 0 1em;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: block;
+  margin: 0;
+  padding: 1em;
+
   background-color: #606060;
-  margin: 0 -8px;
+
   background: rgb(237,237,237); /* Old browsers */
   background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 49%, rgba(237,237,237,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,237,237,1)), color-stop(49%,rgba(255,255,255,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
@@ -261,31 +255,24 @@ a {
   color: #8d1020;
 }
 
-nav li a {
-  font-style: ;
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: #fff;
+  text-decoration: underline;
   display: block;
-  margin: 0;
-  padding: 1em 0;
-  color: #666;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: inline;
-  padding: 2em;
+  display: inline-block;
+  padding: 1.25em;
 
   border: 0;
 
-  color: #d5a919;
+  color: #606060;
   text-align: center;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  background-color: #ccc;
-  color: #fff;
 }
 
 .container {
